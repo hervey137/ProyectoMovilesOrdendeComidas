@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="startColor">#53E88B</color>
+    <color name="endColor">#15BE77</color>
+    <color name="textColor">#15BE77</color>
+    <color name="iconColor">#FEAD1D</color>
+
+    <color name="yellow">#FFd501</color>
+    <color name="gray">#1D1D1D</color>
+    <color name="mainText">#C5C5C5</color>
+    <color name="rojo">#C23E24</color>
+    <color name="verde">#0E4C27</color>
+    <color name="crema">#F3E0B3</color>
+
+</resources>

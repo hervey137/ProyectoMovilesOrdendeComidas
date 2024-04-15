@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Sushilito</string>
+    <string name="next">Next</string>
+    <string name="sweeto">Sushilito</string>
+    <string name="default_web_client_id">Your WEB API KEY</string>
+    <string name="our_menu">Our menu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Sushilito">\n</string>
+    <string name="mesas">Mesas</string>
+    <string name="rollos">Rollos</string>
+    <string name="platillos">Platillos</string>
+    <string name="bebidas">Bebidas</string>
+    <string name="sopas">Sopas</string>
+    <string name="welcome_text">Welcome to the Portales!</string>
+    <string name="welcome_description">Taqueria los Portales is a quick, casual restaurant.</string>
+    <string name="button_start">get started!</string>
+    <string name="name">Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="terms">I have read and accept terms and conditions of the Portales</string>
+    <string name="sing_in">Sing in</string>
+
+</resources>
