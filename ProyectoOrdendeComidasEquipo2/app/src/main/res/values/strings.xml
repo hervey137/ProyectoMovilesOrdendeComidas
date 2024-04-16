@@ -12,14 +12,15 @@
     <string name="platillos">Platillos</string>
     <string name="bebidas">Bebidas</string>
     <string name="sopas">Sopas</string>
-    <string name="welcome_text">Welcome to the Portales!</string>
-    <string name="welcome_description">Taqueria los Portales is a quick, casual restaurant.</string>
-    <string name="button_start">get started!</string>
+    <string name="welcome_text">Bienvenido a sushilito</string>
+    <string name="welcome_description">Sushilito’s es un restaurante de Sushi y comida japonesa ubicados en Ciudad Obregón; con un concepto diferente y un menú lleno de rollos y platillos que no encontrarás en otro lugar</string>
+    <string name="button_start">Comenzar</string>
     <string name="name">Name</string>
     <string name="last_name">Last Name</string>
     <string name="e_mail">E-mail</string>
     <string name="password">Password</string>
-    <string name="terms">I have read and accept terms and conditions of the Portales</string>
+    <string name="terms">Acepto los terminos del restaurante de sushilito</string>
     <string name="sing_in">Sing in</string>
+    <string name="register">Register</string>
 
 </resources>

@@ -1,67 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
+    android:id="@+id/activity_register"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".RegisterActivity">
 
     <ImageView
-        android:layout_width="245dp"
-        android:layout_height="65dp"
-        android:src="@mipmap/sushilitos"
-        android:layout_marginTop="30dp"
-        android:layout_marginBottom="40dp"
-        android:layout_gravity="center" />
-    
-    <EditText
-        android:id="@+id/name_input"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/name"
-        android:inputType="text"
-        android:layout_marginTop="@dimen/input_margin" />
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/sushilitoslogo" />
 
-    <EditText
-        android:id="@+id/last_name_input"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/last_name"
-        android:inputType="text"
-        android:layout_marginTop="@dimen/input_margin" />
+        android:layout_marginTop="16dp"
+        android:text="Sushilito"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="Deliver Favourite Food"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="@+id/textView13"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
     <EditText
         android:id="@+id/email_input"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/e_mail"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="28dp"
+        android:background="@mipmap/edittextshape"
+        android:drawableLeft="@mipmap/mail"
+        android:drawablePadding="15dp"
+        android:elevation="5dp"
+        android:ems="10"
+        android:fontFamily="@font/lato_regular"
+        android:hint="Email or Phone Number"
         android:inputType="textEmailAddress"
-        android:layout_marginTop="@dimen/input_margin" />
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/password"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="12dp"
+        android:background="@mipmap/edittextshape"
+        android:drawableLeft="@mipmap/lock"
+        android:drawablePadding="15dp"
+        android:elevation="5dp"
+        android:ems="10"
+        android:fontFamily="@font/lato_regular"
+        android:hint="Password"
         android:inputType="textPassword"
-        android:layout_marginTop="@dimen/input_margin" />
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/email_input"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/email_input"
+        app:layout_constraintTop_toBottomOf="@+id/email_input" />
 
     <CheckBox
+        android:id="@+id/terms_checkbox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/terms"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="@dimen/input_margin"
-        android:textStyle="italic" />
+        android:layout_marginTop="104dp"
+        android:text="I Agree to Terms and Conditions"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="@+id/email_input"
+        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintStart_toStartOf="@+id/email_input"
+        app:layout_constraintTop_toBottomOf="@+id/email_input" />
 
-    <Button
-        android:id="@+id/btn_sign_in"
-        android:layout_width="219dp"
-        android:layout_height="40dp"
-        android:text="@string/sing_in"
-        android:background="@drawable/round_button"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_register"
+        android:layout_width="152dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/greenbuttongradient"
+        android:fontFamily="@font/lato_bold"
+        android:text="Register"
+        android:textAllCaps="false"
         android:textColor="@color/white"
-        android:layout_gravity="center"
-        android:layout_marginTop="5dp" />
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/terms_checkbox" />
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
