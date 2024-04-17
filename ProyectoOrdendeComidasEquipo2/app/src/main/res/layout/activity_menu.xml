@@ -81,7 +81,12 @@
             android:paddingVertical="@dimen/menu_buttons_paddings" />
 
 
-
     </GridLayout>
+
+    <Button
+        android:id="@+id/button_pago"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pagar" />
 
 </LinearLayout>
