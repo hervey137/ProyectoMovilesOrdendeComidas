@@ -89,4 +89,10 @@
         android:layout_height="wrap_content"
         android:text="Pagar" />
 
+    <Button
+        android:id="@+id/button_mesas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mesas" />
+
 </LinearLayout>
