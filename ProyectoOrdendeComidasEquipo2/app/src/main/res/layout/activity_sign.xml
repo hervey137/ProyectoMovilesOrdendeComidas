@@ -172,7 +172,7 @@
         android:layout_marginTop="20dp"
         android:background="@mipmap/orangebuttongradient"
         android:fontFamily="@font/lato_bold"
-        android:text="Crear cuenta"
+        android:text="Create Account"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="16sp"

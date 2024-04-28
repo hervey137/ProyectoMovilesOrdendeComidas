@@ -28,9 +28,6 @@
             android:name=".EfectivoActivity"
             android:exported="false" />
         <activity
-            android:name=".SignActivity"
-            android:exported="false" />
-        <activity
             android:name=".PagoConfirmadoActivity"
             android:exported="false" />
         <activity
