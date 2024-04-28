@@ -6,7 +6,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/sushilito_beige"
     tools:context=".SignActivity">
 
     <ImageView
@@ -39,7 +39,7 @@
         android:layout_marginTop="12dp"
         android:fontFamily="@font/lato_regular"
         android:text="Deliver Favorite Food"
-        android:textColor="@color/textColor"
+        android:textColor="@color/sushilito_rojo"
         app:layout_constraintEnd_toEndOf="@+id/textView13"
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="@+id/textView13"
@@ -52,7 +52,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/lato_bold"
         android:text="Sign Up Here"
-        android:textColor="@color/textColor"
+        android:textColor="@color/sushilito_rojo"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/textView14"
         app:layout_constraintHorizontal_bias="0.515"
@@ -135,34 +135,31 @@
         app:layout_constraintHorizontal_bias="0.479"
         app:layout_constraintStart_toStartOf="@+id/textView16"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
-
-    <androidx.appcompat.widget.AppCompatButton
+    <ImageButton
         android:id="@+id/googleSignIn"
         android:layout_width="152dp"
         android:layout_height="57dp"
         android:layout_marginTop="12dp"
-        android:background="@mipmap/whitebutton"
-        android:drawableLeft="@mipmap/google"
-        android:fontFamily="@font/lato_regular"
+        android:background="@android:color/transparent"
+        android:src="@mipmap/google"
         android:paddingLeft="15dp"
-        android:text="Google"
-        android:textAllCaps="false"
+        android:paddingRight="15dp"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <ImageButton
         android:id="@+id/button2"
         android:layout_width="152dp"
         android:layout_height="57dp"
         android:layout_marginTop="12dp"
-        android:background="@mipmap/whitebutton"
-        android:drawableLeft="@mipmap/facebook"
-        android:fontFamily="@font/lato_regular"
+        android:background="@android:color/transparent"
+        android:src="@mipmap/facebook"
         android:paddingLeft="15dp"
-        android:text="Facebook"
-        android:textAllCaps="false"
+        android:paddingRight="15dp"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/googleSignIn"
@@ -173,7 +170,7 @@
         android:layout_width="152dp"
         android:layout_height="57dp"
         android:layout_marginTop="20dp"
-        android:background="@mipmap/greenbuttongradient"
+        android:background="@mipmap/orangebuttongradient"
         android:fontFamily="@font/lato_bold"
         android:text="Create Account"
         android:textAllCaps="false"
@@ -196,7 +193,6 @@
         app:layout_constraintEnd_toEndOf="@+id/signUpbutton"
         app:layout_constraintStart_toStartOf="@+id/signUpbutton"
         app:layout_constraintTop_toBottomOf="@+id/signUpbutton" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

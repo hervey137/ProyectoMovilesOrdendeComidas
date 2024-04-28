@@ -5,7 +5,7 @@
     android:id="@+id/activity_register"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/sushilito_beige"
     tools:context=".RegisterActivity">
 
     <ImageView
@@ -38,7 +38,7 @@
         android:layout_marginTop="12dp"
         android:fontFamily="@font/lato_regular"
         android:text="Deliver Favourite Food"
-        android:textColor="@color/textColor"
+        android:textColor="@color/sushilito_rojo"
         app:layout_constraintEnd_toEndOf="@+id/textView13"
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="@+id/textView13"
@@ -86,7 +86,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="104dp"
-        android:text="I Agree to Terms and Conditions"
+        android:text="Acepto los terminos y condiciones"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="@+id/email_input"
         app:layout_constraintHorizontal_bias="0.574"
@@ -98,9 +98,9 @@
         android:layout_width="152dp"
         android:layout_height="57dp"
         android:layout_marginTop="20dp"
-        android:background="@mipmap/greenbuttongradient"
+        android:background="@color/sushilito_rojo"
         android:fontFamily="@font/lato_bold"
-        android:text="Register"
+        android:text="Registrarse"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="20sp"

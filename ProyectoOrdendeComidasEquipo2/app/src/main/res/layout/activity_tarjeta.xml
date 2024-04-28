@@ -4,19 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#e5dfdf"
+    android:background="@color/sushilito_beige"
     tools:context=".TarjetaActivity">
-
-    <Button
-        android:id="@+id/btn_regresar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="14dp"
-        android:backgroundTint="#e65244"
-        android:text="Regresar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn_comfirmar"
@@ -25,9 +14,10 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="14dp"
         android:backgroundTint="#e65244"
-        android:text="Comfirmar"
+        android:text="Confirmar"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="onConfirmButtonClick" />
 
     <TextView
         android:id="@+id/txt_subtotal"
@@ -57,8 +47,8 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="413dp"
+        android:layout_height="165dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

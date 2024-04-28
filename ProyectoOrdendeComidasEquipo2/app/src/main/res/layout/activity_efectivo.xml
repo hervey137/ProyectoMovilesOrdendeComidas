@@ -17,21 +17,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <Button
-        android:id="@+id/btn_regresar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="14dp"
-        android:backgroundTint="#e65244"
-        android:text="Regresar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="410dp"
+        android:layout_height="172dp"
         android:layout_marginTop="1dp"
         android:background="#e5dfdf"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,9 +34,10 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="14dp"
         android:backgroundTint="#e65244"
-        android:text="Comfirmar"
+        android:text="Confirmar"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="onConfirmButtonClick" />
 
     <TextView
         android:id="@+id/textView"

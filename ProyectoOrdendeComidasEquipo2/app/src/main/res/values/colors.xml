@@ -14,4 +14,10 @@
     <color name="verde">#0E4C27</color>
     <color name="crema">#F3E0B3</color>
 
+    <color name="sushilito_rojo">#e65244</color>
+    <color name="sushilito_rojo_light">#f27a6f</color>
+    <color name="sushilito_beige">#e5dfdf</color>
+    <color name="sushilito_negro">#202020</color>
+
+
 </resources>

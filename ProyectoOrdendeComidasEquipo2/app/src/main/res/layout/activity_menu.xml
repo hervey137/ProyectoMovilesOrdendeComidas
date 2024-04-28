@@ -11,88 +11,101 @@
     <ImageView
         android:layout_width="241dp"
         android:layout_height="wrap_content"
-        android:src="@mipmap/sushilitoslogo"
+        android:layout_gravity="center"
         android:layout_marginTop="40dp"
-        android:layout_gravity="center" />
+        android:src="@mipmap/sushilitoslogo" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
         android:fontFamily="sans-serif-light"
         android:text="@string/our_menu"
         android:textAllCaps="true"
-        android:layout_gravity="center"
-        android:textSize="20sp"
-        android:layout_marginTop="20dp" />
+        android:textSize="20sp" />
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:columnCount="2"
         android:layout_marginTop="20dp"
+        android:columnCount="2"
         android:paddingHorizontal="50dp">
 
         <Button
             android:id="@+id/button_rollos"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginRight="@dimen/menu_buttons_margin"
+            android:backgroundTint="@color/sushilito_rojo"
+            android:paddingHorizontal="@dimen/menu_buttons_paddings"
+            android:paddingVertical="@dimen/menu_buttons_paddings"
             android:text="@string/rollos"
             android:textColor="@color/white"
-            android:background="@mipmap/first_gradient"
-            android:paddingHorizontal="@dimen/menu_buttons_paddings"
-            android:layout_marginRight="@dimen/menu_buttons_margin"
-            android:layout_gravity="fill_horizontal"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/menu_buttons_text"
-            android:paddingVertical="@dimen/menu_buttons_paddings" />
+            android:textSize="@dimen/menu_buttons_text" />
 
         <Button
             android:id="@+id/button_platillos"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginRight="@dimen/menu_buttons_margin"
+            android:backgroundTint="@color/sushilito_rojo"
+            android:paddingHorizontal="@dimen/menu_buttons_paddings"
+            android:paddingVertical="@dimen/menu_buttons_paddings"
             android:text="@string/platillos"
             android:textColor="@color/white"
-            android:background="@mipmap/first_gradient"
-            android:paddingHorizontal="@dimen/menu_buttons_paddings"
-            android:layout_marginRight="@dimen/menu_buttons_margin"
-            android:layout_gravity="fill_horizontal"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/menu_buttons_text"
-            android:paddingVertical="@dimen/menu_buttons_paddings" />
+            android:textSize="@dimen/menu_buttons_text" />
 
         <Button
             android:id="@+id/button_bebidas"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginRight="@dimen/menu_buttons_margin"
+            android:backgroundTint="@color/sushilito_rojo"
+            android:paddingHorizontal="@dimen/menu_buttons_paddings"
+            android:paddingVertical="@dimen/menu_buttons_paddings"
             android:text="@string/bebidas"
             android:textColor="@color/white"
-            android:background="@mipmap/first_gradient"
-            android:paddingHorizontal="@dimen/menu_buttons_paddings"
-            android:layout_marginRight="@dimen/menu_buttons_margin"
-            android:layout_gravity="fill_horizontal"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/menu_buttons_text"
-            android:paddingVertical="@dimen/menu_buttons_paddings" />
+            android:textSize="@dimen/menu_buttons_text" />
 
         <Button
             android:id="@+id/button_sopas"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginRight="@dimen/menu_buttons_margin"
+            android:backgroundTint="@color/sushilito_rojo"
+            android:paddingHorizontal="@dimen/menu_buttons_paddings"
+            android:paddingVertical="@dimen/menu_buttons_paddings"
             android:text="@string/sopas"
             android:textColor="@color/white"
-            android:background="@mipmap/first_gradient"
-            android:paddingHorizontal="@dimen/menu_buttons_paddings"
-            android:layout_marginRight="@dimen/menu_buttons_margin"
-            android:layout_gravity="fill_horizontal"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/menu_buttons_text"
-            android:paddingVertical="@dimen/menu_buttons_paddings" />
+            android:textSize="@dimen/menu_buttons_text" />
 
 
     </GridLayout>
 
-    <Button
-        android:id="@+id/button_pago"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Pagar" />
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/button_mesas"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Mesas" />
+        <Button
+            android:id="@+id/button_pago"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/sushilito_rojo"
+            android:gravity="center"
+            android:text="Pagar" />
+
+        <Button
+            android:id="@+id/button_mesas"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/sushilito_rojo"
+            android:gravity="center"
+            android:text="Mesas" />
+    </LinearLayout>
+
+
 
 </LinearLayout>
